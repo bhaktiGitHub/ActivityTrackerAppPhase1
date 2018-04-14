@@ -18,3 +18,13 @@ describe('index page', function () {
       });
   });
 });
+
+describe('Registration page', function () {
+  it('should exist', function () {
+    return chai.request(app)
+      .get('/registration')
+      .then(function (res) {
+        expect(res).to.have.status(200);
+      });
+  });
+});
