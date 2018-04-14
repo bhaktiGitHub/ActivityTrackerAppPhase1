@@ -19,10 +19,10 @@ describe('index page', function () {
   });
 });
 
-describe('Registration page', function () {
+describe('activity page', function () {
   it('should exist', function () {
     return chai.request(app)
-      .get('/registration')
+      .get('/activity')
       .then(function (res) {
         expect(res).to.have.status(200);
       });
