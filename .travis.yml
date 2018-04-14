@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: WeqTZ1SmBzwoX9WkWYn9Jm4P9+kBuWZrkDon4WsH7V932qcvA9jQ93sbaM/Avaort6GGlM5CZ63dh6li/VJ74WcsRN4DOaHvCeU5aEhys/GXfwm5Nvp5kvDVqu84gYHrmdvKZyTg+sMtsTiBJKGmKdoh7Ji/CPKDv9ZRgtwBveFdKgG476AAxqhidoAw+wzm6Zj/94ubtwrZmWl3/rnJYZ1aIQvW4g6GoCBq8vb9W7jGzwbQ/EeSGkgQtZEVX4KalVrz0O7yQLbA5ANxhfgy022YlJjSCsCzMsgwPFG0xuTdfbGc8cWdAMM99/HZ9gpASux3TLA7v3rxv7eq/2QcYcBMc0jgvKVXbe5uEXXO3rZ7RJtnIkvXMdDwwjGwi3mRlIzoXdUHO/68Ch+psfQA5vyDHXXWWmNn1vKl8aQj5ksEpvFE25wMD5V4uvT7d0K/yTAu+7MjGPoCrvKpFqoeVsVGtuRSRMKeL5LCffdo0Fs6+aAI+iToUy/Kty7rGPbVX1itS4qwgE+ks5Hcn4+8ujXhORZoA2Ux6UDJeOTB5hPXrDOFSbus8Cwii9sxHij5t8NYF6jgcXEJrldSMZY9QAnhfCaMIfBac3uvGf+/aFfulwbQooFIBdb1u2db5fUfVFYbelk1aS2deQMh9SPit9QuS83ciCMLCJjk8iX1VjE=
+  app: fast-citadel-84912
+  on:
+    repo: bhaktiGitHub/ActivityTrackerAppPhase1
