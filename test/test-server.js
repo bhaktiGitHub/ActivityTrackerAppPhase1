@@ -28,3 +28,21 @@ describe('activity page', function () {
       });
   });
 });
+describe('about us page', function () {
+  it('should exist', function () {
+    return chai.request(app)
+      .get('/about')
+      .then(function (res) {
+        expect(res).to.have.status(200);
+      });
+  });
+});
+describe('login page', function () {
+  it('should exist', function () {
+    return chai.request(app)
+      .get('/login')
+      .then(function (res) {
+        expect(res).to.have.status(200);
+      });
+  });
+});
